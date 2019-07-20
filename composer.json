@@ -1,0 +1,22 @@
+{
+    "name": "app-ark/validation",
+    "description": "Extension for Illuminate Validation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiaohui.lam",
+            "email": "xiaohui.lam@icloud.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6",
+        "laravel/framework": "5.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AppArk\\Validation\\": "src"
+        }
+    }
+}
